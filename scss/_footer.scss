@@ -1,0 +1,25 @@
+.footer{
+    h4{
+        color: white;
+    }
+    background-color:#004C3F;
+    &-box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 20px 0px;
+        border-bottom: 2px solid rgb(175, 169, 169);
+    }
+    &-links{
+        margin: 15px 0px 0px;
+        display: flex;
+        gap: 20px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &-link{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

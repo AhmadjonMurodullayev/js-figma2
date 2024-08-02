@@ -1,0 +1,74 @@
+.hero{
+    margin: 70px 0px 20px;
+    background-color: #002D2D;
+    width: 100%;
+    height: 120vh;
+    &-box{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &-box-item1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 10px 10px;
+    }
+    &-title{
+        color: white;
+        font-size: 39px;
+    }
+    &-info{
+        color: white;
+    }
+    &-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &-sign-up{
+        padding: 10px 30px;
+        border-radius: 5px;
+        background-color: #008060;
+        color: white;
+        border: none;
+        cursor: pointer ;
+    }
+    &-input{
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: none;
+    }
+    &-box-item2{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media(min-width:768px){
+    .hero{
+        height: 60vh;
+        &-box{
+            flex-direction: row;
+        }
+        &-box-item1{
+            width: 50%;
+            height: 100%;
+        }
+        &-box-item2{
+            width: 50%;
+            height: 100%;
+        }
+    }
+}
+@media(min-width:992px){
+    .hero{
+        height: 70vh;
+      &-btns{
+        flex-direction: row;
+      }
+    }
+}
+
